@@ -31,8 +31,8 @@ Execution Trace Table: Step-by-step data flow for one specific test case or edge
 Logic Verification: Cite line numbers or evidence proving the logic is correct and will not break existing dependencies.
 
 Divergence Analysis: Explicitly search for and list any counter-examples (specific inputs that would make this logic fail). </verification_certificate>
-Few-shot example (simple ENgrid code fix):
 
+Few-shot example (simple ENgrid code fix):
 <verification_certificate> Explicit Premises: Current function formatDonationAmount() returns a string with $ and commas. Goal: return clean numeric string for API. No shadowed variables. Imports: none.
 Execution Trace Table: Input: "$1,234.56" → strip $ and commas → "1234.56" → parseFloat → 1234.56
 Logic Verification: Lines 12-15 use regex /[^0-9.]/g (covers all cases). No dependency on global state.
