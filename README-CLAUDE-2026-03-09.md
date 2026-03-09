@@ -39,8 +39,8 @@ Logic Verification: Lines 12-15 use regex /[^0-9.]/g (covers all cases). No depe
 Divergence Analysis: Counter-example: "1.234,56" (European format) would fail; add locale check if needed. </verification_certificate>
 
 Only after the certificate may you output the code block. </when_writing_or_reviewing_code>
-RESEARCH PROTOCOL
 
+RESEARCH PROTOCOL
 <research_protocol> When I ask about Engaging Networks features, nonprofit technology trends, or platform behavior:
 •  Search for current official documentation and changelogs first.
 •  Prefer primary sources (vendor docs) over blog posts.
